@@ -34,3 +34,12 @@ This project also uses two widely used Python libraries: `numpy` and `matplotlib
 pip install numpy
 python -m pip install -U matplotlib
 ```
+Once all the necessary dependencies are installed, simply run the [convolutional_autoencoder.py](https://github.com/kayanmorshed/Document-Denoising-Convolutional-Autoencoder-using-Tensorflow/blob/main/convolutional_autoencoder/convolutional_autoencoder.py) file from the `convolutional_autoencoder` directory.
+
+**Note**: The dataset files are not uploaded in the project due to the lack of storage space. To ensure that the project runs without errors, please create a `data/raw/` directory on the root folder and keep the unzipped `train`, `test`, and `train_cleaned` directories there. Find the [config.py](https://github.com/kayanmorshed/Document-Denoising-Convolutional-Autoencoder-using-Tensorflow/blob/main/convolutional_autoencoder/config/config.py) in the the `convolutional_autoencoder` directory for more details about the configurations. 
+
+## Results
+
+
+
+## Conclusion
