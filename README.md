@@ -8,5 +8,13 @@ The autoencoder architecture used in this project is a **Convolutional Neural Ne
 
 ## Dataset
 
-The denoising-dirty-documents
+The [denoising-dirty-documents](https://www.kaggle.com/competitions/denoising-dirty-documents/data) dataset is used in this project for training and testing the models. The dataset provides images of documents containing various style of texts. It has three sets of data:
+
+1. __train__ data: images of documents used for training the model to which synthetic noise has been added to simulate real-world, messy artifacts, 
+2. __train_cleaned__ data: dataset with denoised __train__ data used for validation during the training procedure, and
+3. __test__ data: noisy images of documents to be used for testing the mode.
+
+## Usage
+
+To run this project, 
 
