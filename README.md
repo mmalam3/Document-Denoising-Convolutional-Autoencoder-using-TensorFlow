@@ -20,7 +20,7 @@ You can run this project either 1) in Colab, or 2) in our own machine installing
 
 1. To run the project in **Google Colab**, you need to open the [denoising_convolutional_autoencoder.ipynb](https://github.com/kayanmorshed/Document-Denoising-Convolutional-Autoencoder-using-Tensorflow/tree/main/notebooks) file from the `notebooks` directory. The notebook contains all the required codes along with suitable comments. Since the datate is hosted in **Kaggle**, the detailed instructions of how to download and preprocess the dataset correctly are also included in the notebook.    
 
-2. To run the project in your own machine, use the following commands to install necessary tool/libraries:
+2. To run the project in your own machine, use the following commands to install necessary tools/libraries:
 
 ```
 python -m pip install -U pip # to install pip
