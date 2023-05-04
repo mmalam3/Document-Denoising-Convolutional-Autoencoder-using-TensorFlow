@@ -38,8 +38,13 @@ Once all the necessary dependencies are installed, simply run the [convolutional
 
 **Note**: The dataset files are not uploaded in the project due to the lack of storage space. To ensure that the project runs without errors, please create a `data/raw/` directory on the root folder and keep the unzipped `train`, `test`, and `train_cleaned` directories there. Find the [config.py](https://github.com/kayanmorshed/Document-Denoising-Convolutional-Autoencoder-using-Tensorflow/blob/main/convolutional_autoencoder/config/config.py) in the the `convolutional_autoencoder` directory for more details about the configurations. 
 
-## Results
+## Evaluation
 
+The `reports` directory contains visual plots showing the evolution of loss and errors during the training process and the outputs of denoising operations over the `test` dataset. Here goes a plot to show how `loss` and `mean absolute error (MAE)` changes over epochs during the training process.
+
+![Change of loss on train and validation (train_cleaned) datasets over epochs](https://github.com/kayanmorshed/Document-Denoising-Convolutional-Autoencoder-using-Tensorflow/blob/main/reports/error_evaluations_on_epochs.png)
 
 
 ## Conclusion
+
+This Denoising Convolutional Autoencoder (CAE) can be utilized to denoise any noisy documents, including scanned documents, photographs of documents, or low-quality PDFs, minimizing the training loss and errors almost close to zero, i.e., with very high accuracy.
